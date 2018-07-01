@@ -1,74 +1,72 @@
 # doc-setting-up-macos
-How I setup my Mac
+How I setup my Ma
 
-
-{::nomarkdown}
 
 <!-- HTML CODE-->
-<p>Index:</p>
+<h3>Index:</h3>
 <ul>
-  <li><a href="#macos-update">macOS Update</a>
+  <li>macOS Update
     <ul>
-      <li><a href="#macos-backup">Backup Prior to macOS Update</a></li>
-      <li><a href="#macos-external-boot">Booting from External Drive to Install macOS</a></li>
+      <li>Backup Prior to macOS Update</li>
+      <li>Booting from External Drive to Install macOS</li>
     </ul></li>
-  <li><a href="#macos-setup">macOS Setup</a>
+  <li>macOS Setup
     <ul>
-      <li><a href="#macos-fonts">Fonts</a></li>
-      <li><a href="#macos-home-vs-work-setup">Home vs Work Setup</a></li>
-      <li><a href="#macos-unix-utility-setup">Unix Utility Setup</a>
+      <li>Fonts</li>
+      <li>AppleScript</li>
+      <li>Home vs Work Setup</li>
+      <li>Unix Utility Setup
         <ul>
-          <li><a href="#macos-setup-bash">Setup <samp>bash</samp></a></li>
-          <li><a href="#macos-setup-fpath-etc-hosts">Setup <samp>/etc/hosts</samp></a></li>
-          <li><a href="#macos-setup-locate">Setup <samp>locate</samp></a></li>
-          <li><a href="#macos-setup-ssh">Setup <samp>ssh</samp></a></li>
+          <li>Setup <samp>bash</samp></li>
+          <li>Setup <samp>/etc/hosts</samp></li>
+          <li>Setup <samp>locate</samp></li>
+          <li>Setup <samp>ssh</samp></li>
         </ul></li>
-      <li><a href="#macos-system-preferences">System Preferences</a></li>
+      <li>System Preferences</li>
     </ul></li>
-  <li><a href="#apps">Applications</a>
+  <li>Applications
     <ul>
-      <li><a href="#app-store-downloads">App Store Downloads</a></li>
-      <li><a href="#32bit-apps">32bit Apps</a></li>
-      <li><a href="#apps-about-routine-non-apple">About Non-Apple Applications Routinely Used</a></li>
-      <li><a href="#apps-about-utility">About Utility Applications</a></li>
-      <li><a href="#apps-about-multimedia">About Ebook &amp; Multimedia Applications</a></li>
-      <li><a href="#apps-about-future">About Applications Which I Might Use in the Future</a></li>
-      <li><a href="#apps-about-past">About Applications Not Used for a Long Time But Still Installed</a></li>
-      <li><a href="#apps-about-no-longer-installed">About Applications No Longer Installed</a></li>
-      <li><a href="#apps-about-non-applications">About non-Applications Software</a>
+      <li>App Store Downloads</li>
+      <li>32bit Apps</li>
+      <li>About Non-Apple Applications Routinely Used</li>
+      <li>About Utility Applications</li>
+      <li>About Ebook &amp; Multimedia Applications</li>
+      <li>About Applications Which I Might Use in the Future</li>
+      <li>About Applications Not Used for a Long Time But Still Installed</li>
+      <li>About Applications No Longer Installed</li>
+      <li>About non-Applications Software
         <ul>
-          <li><a href="#hardware-drivers">Hardware Drivers</a></li>
-          <li><a href="#java-apps-installation">Java-based Applications &amp; Installation</a></li>
-          <li><a href="#non-app-other">Other</a></li>
+          <li>Hardware Drivers</li>
+          <li>Java-based Applications &amp; Installation</li>
+          <li>Other</li>
         </ul></li>
-      <li><a href="#application-preferences">Application Preferences</a></li>
-      <li><a href="#setting-up-app-directory">Setting up Application Directory</a></li>
-      <li><a href="#setting-up-dock">Setting up Dock</a></li>
+      <li>Application Preferences</li>
+      <li>Setting up Application Directory</li>
+      <li>Setting up Dock</li>
     </ul></li>
-  <li><a href="#development-environment">Development Environment</a>
+  <li>Development Environment
     <ul>
-      <li><a href="#dev-dpath-usr">Directory <samp>/usr</samp></a></li>
-      <li><a href="#dev-xcode-and-command-line-tools-installation">Xcode and Command Line Tools Installation</a></li>
-      <li><a href="#dev-setting-up-my-base">Setting Up My Development Base</a></li>
-      <li><a href="#dev-building-perl-base">Building <samp>/opt/bin/perl-base</samp> &amp; <samp>/opt/bin/perl</samp>></a>
-        <li><a href="#dev-building-perl-bootstrap">Building <samp>perl-bootstrap</samp></a></li>
-        <li><a href="#dev-building-perl-base2">Using <samp>perl-bootstrap</samp> to Build <samp>perl-base</samp></a></li></li>
-      <li><a href="#dev-macports-installation">MacPorts Installation</a></li>
-      <li><a href="#dev-other-pkgs-installed">Other Packages Installe</a></li>
-      <li><a href="#dev-vscode-plugins">VS Code Plugins</a></li>
+      <li>Directory <samp>/usr</samp></li>
+      <li>Xcode and Command Line Tools Installation</li>
+      <li>Setting Up My Development Base</li>
+      <li>Building <samp>/opt/bin/perl-base</samp> &amp; <samp>/opt/bin/perl</samp>
+        <li>Building <samp>perl-bootstrap</samp></li>
+        <li>Using <samp>perl-bootstrap</samp> to Build <samp>perl-base</samp></li></li>
+      <li>MacPorts Installation</li>
+      <li>Other Packages Installe</li>
+      <li>VS Code Plugins</li>
     </ul></li>
-  <li><a href="#hardware">Hardware</a>
+  <li>Hardware
     <ul>
-      <li><a href="#hardware-magic-mouse2">Magic Mouse2</a></li>
-      <li><a href="#hardware-magic-keyboard">Magic Keyboard</a></li>
-      <li><a href="#hardware-magic-airpods">AirPods</a></li>
+      <li>Magic Mouse2</li>
+      <li>Magic Keyboard</li>
+      <li>Matias Wired Aluminum Keyboard with RGB Backlight</li>
+      <li>AirPods</li>
     </ul></li>
-  <li><a href="#footnotes">Footnotes</a>
+  <li>Footnotes
     <ul>
-      <li><a href="#footnote-external-boot-fails">Footnote: External Boot Fails</a></li>
-      <li><a href="#footnote-block-size">Footnote: "block size"</a></li>
-      <li><a href="#footnote-monitor-colour-space-incorrect">Footnote: External Monitor Colour Space Incorrect</a></li>
+      <li>Footnote: External Boot Fails</li>
+      <li>Footnote: "block size"</li>
+      <li>Footnote: External Monitor Colour Space Incorrect</li>
     </ul></li>
 </ul>
-
-{:/}
