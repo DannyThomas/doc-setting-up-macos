@@ -1,5 +1,5 @@
 # doc-setting-up-macos
-How I setup my Ma
+How I setup my Mac
 
 
 <!-- HTML CODE-->
